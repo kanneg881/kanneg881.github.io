@@ -1,0 +1,61 @@
+body {
+    font-family: DFKai-sb, serif, sans-serif;
+}
+
+.article-indent {
+    text-indent: 40px;
+}
+
+.brand-story1 {
+    margin: 30px auto;
+}
+
+.brand-story2-caption {
+    color: #82320A;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.brand-story-origin {
+    margin: 30px auto;
+}
+
+.brand-story-proverb {
+    font-size: 20px;
+}
+
+.navbar-header {
+    background-color: #faf5e6;
+}
+
+.navbar-header a {
+    color: #b48246;
+    font-size: large;
+    font-weight: bold;
+}
+
+.navbar-header a:hover {
+    color: #966428;
+}
+
+.title {
+    color: #821E00;
+    font-weight: bold;
+    margin: 30px auto;
+}
+
+@media screen and (min-width: 576px) {
+    .brand-story-proverb {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 992px) {
+}
+
+@media screen and (min-width: 1200px) {
+
+}
