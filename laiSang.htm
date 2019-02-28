@@ -10,47 +10,79 @@
     <script src="asset/lib/jquery/javaScript/jquery-3.3.1.min.js"></script>
     <script src="asset/lib/popper/javaScript/popper.min.js"></script>
     <script src="asset/lib/bootstrap/javaScript/bootstrap.min.js"></script>
-    <link href="asset/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link href="asset/css/laiSang.css?201902190348" rel="stylesheet" type="text/css">
+    <link href="asset/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="asset/css/laiSang.css?201902190348" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+TC:600" rel="stylesheet">
 </head>
 <body>
-<nav class="flex-column flex-lg-row nav navbar-header nav-pills">
-    <a class="flex-lg-fill nav-link text-lg-center" href="#">品牌故事</a>
-    <a class="flex-lg-fill nav-link text-lg-center" href="#">茶飲特色與堅持</a>
-    <a class="flex-lg-fill nav-link text-lg-center" href="#">用心的好味道</a>
-    <a class="flex-lg-fill nav-link text-lg-center" href="#">健康的好味道</a>
-    <a class="flex-lg-fill nav-link text-lg-center" href="#">愛用者迴響</a>
-    <a class="flex-lg-fill nav-link text-lg-center" href="#">訂購方式</a>
-</nav>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light navbar-header">
+        <button aria-controls="navbarsExample08" aria-expanded="false"
+                aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarHeader"
+                data-toggle="collapse" type="button">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-md-center" id="navbarHeader">
+            <ul class="navbar-header-item navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">品牌故事</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">茶飲特色與堅持</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">用心的好味道</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">健康的好味道</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">愛用者迴響</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">訂購方式</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
 <div class="container">
-    <h1 class="text-center title">品牌故事</h1>
-    <hr>
-    <div class="text-center">
-        <img src="asset/images/brandStory1.jpg" class="img-fluid brand-story1 rounded">
-    </div>
-    <div class="justify-content-center row">
-        <div class="brand-story-proverb col text-center">聰<br>明<br>首<br>選</div>
-        <div class="brand-story-proverb col text-center">藥<br>食<br>同<br>源</div>
-        <div class="brand-story-proverb col text-center">生<br>津<br>止<br>渴</div>
-        <div class="brand-story-proverb col text-center">天<br>然<br>無<br>糖</div>
-        <div class="brand-story-proverb col text-center">養<br>身<br>健<br>活</div>
-        <div class="brand-story-proverb col text-center">天<br>地<br>精<br>華</div>
-        <div class="brand-story-proverb col text-center">歷<br>久<br>彌<br>新</div>
-        <div class="brand-story-proverb col text-center">代<br>代<br>傳<br>承</div>
-    </div>
-    <h2 class="brand-story-origin text-center">緣起~</h2>
-    <p class="article-indent lead text-justify">
-        數十年前，有位<u>伯仔</u>長期在『柴山奉茶站』提供青草茶給山友喝，後來因年事已高，將奉茶站傳承給<u>賴桑</u>。當時，台灣經歷多次食安事件，為了山友健康，<u>賴桑</u>進一步將茶飲藥材配方請教中醫博士，略做調整，改良口感，並進行重金屬檢驗，贏得許多山友的信任與喜愛，超過百萬人次飲用過此茶飲，可說是『<strong>最多人喝過的青草茶</strong>』。且從許多山友口中，直接或間接聽到此茶飲對其健康之幫助。
-    </p>
-    <p class="article-indent lead text-justify">
-        有山友希望不用爬山也能喝得到這味好茶，此乃『賴桑青草茶』的緣起...
-    </p>
-    <figure class="figure">
-        <img src="asset/images/brandStory2.jpg" class="figure-img img-fluid rounded">
-        <figcaption class="brand-story2-caption figure-caption text-center">
-            山頂的好味道 &nbsp;&nbsp;山下也喝得到
-        </figcaption>
-    </figure>
+    <section>
+        <h1 class="text-center title">品牌故事</h1>
+        <hr>
+        <div class="text-center">
+            <img src="asset/images/brandStory1.jpg" class="img-fluid rounded brand-story1">
+        </div>
+        <div class="justify-content-center row">
+            <div class="col text-center brand-story-proverb">聰<br>明<br>首<br>選</div>
+            <div class="col text-center brand-story-proverb">藥<br>食<br>同<br>源</div>
+            <div class="col text-center brand-story-proverb">生<br>津<br>止<br>渴</div>
+            <div class="col text-center brand-story-proverb">天<br>然<br>無<br>糖</div>
+            <div class="col text-center brand-story-proverb">養<br>身<br>健<br>活</div>
+            <div class="col text-center brand-story-proverb">天<br>地<br>精<br>華</div>
+            <div class="col text-center brand-story-proverb">歷<br>久<br>彌<br>新</div>
+            <div class="col text-center brand-story-proverb">代<br>代<br>傳<br>承</div>
+        </div>
+        <h2 class="text-center brand-story-origin">緣起~</h2>
+        <article>
+            <p class="lead text-justify article-indent">
+                數十年前，有位<u>伯仔</u>長期在『柴山奉茶站』提供青草茶給山友喝，後來因年事已高，將奉茶站傳承給<u>賴桑</u>。當時，台灣經歷多次食安事件，為了山友健康，<u>賴桑</u>進一步將茶飲藥材配方請教中醫博士，略做調整，改良口感，並進行重金屬檢驗，贏得許多山友的信任與喜愛，超過百萬人次飲用過此茶飲，可說是『<strong>最多人喝過的青草茶</strong>』。且從許多山友口中，直接或間接聽到此茶飲對其健康之幫助。
+            </p>
+            <p class="lead text-justify article-indent">
+                有山友希望不用爬山也能喝得到這味好茶，此乃『賴桑青草茶』的緣起...
+            </p>
+        </article>
+        <figure class="figure">
+            <img src="asset/images/brandStory2.jpg" class="figure-img img-fluid rounded">
+            <figcaption class="figure-caption text-center brand-story2-caption">
+                山頂的好味道 &nbsp;&nbsp;山下也喝得到
+            </figcaption>
+        </figure>
+    </section>
+    <section>
+        <h1 class="text-center title">茶飲特色與堅持</h1>
+        <hr>
+    </section>
 </div>
 </body>
 </html>
