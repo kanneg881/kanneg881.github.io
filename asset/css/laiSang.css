@@ -6,49 +6,31 @@
     text-indent: 40px;
 }
 
-.brand-story1 {
-    margin: 30px auto;
-}
-
 .brand-story2-caption {
     color: #82320A;
     font-size: x-large;
-    font-weight: bold;
-}
-
-.brand-story-origin, .tea-features-subtitled {
-    margin: 30px auto;
 }
 
 .brand-story-proverb {
     font-size: 20px;
     font-family: 'Noto Serif TC', serif;
-    font-weight: bold;
 }
 
-.navbar-header {
+.navbar-header-color {
     background-color: #faf5e6;
-}
-
-.navbar-header-item li {
-    margin-left: 20px;
-    margin-right: 20px;
 }
 
 .navbar-light .navbar-nav .nav-link {
     color: #b48246;
     font-size: larger;
-    font-weight: bold;
 }
 
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
     color: #966428;
 }
 
-.title {
+.title-color {
     color: #821E00;
-    font-weight: bold;
-    margin: 30px auto;
 }
 
 @media screen and (min-width: 576px) {
