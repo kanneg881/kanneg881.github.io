@@ -16,6 +16,10 @@
     font-family: 'Noto Serif TC', serif;
 }
 
+.good-taste-border {
+    border: 1px solid #F0DCB4;
+}
+
 .navbar-header-color {
     background-color: #faf5e6;
 }
