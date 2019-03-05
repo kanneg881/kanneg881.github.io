@@ -6,6 +6,10 @@
     text-indent: 40px;
 }
 
+.big-picture {
+    max-height: 600px;
+}
+
 .brand-story2-caption {
     color: #82320A;
     font-size: x-large;
@@ -18,6 +22,14 @@
 
 .good-taste-border {
     border: 1px solid #F0DCB4;
+}
+
+.healthy-taste-border {
+    border: 1px solid #786E3C;
+}
+
+.property-benefit-font-color > dd {
+    color: #B98C55;
 }
 
 .navbar-header-color {
