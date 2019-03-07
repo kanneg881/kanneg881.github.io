@@ -9,6 +9,11 @@
 .background-color-faf5e6 {
     background-color: #FAF5E6;
 }
+
+.big-icon {
+    font-size: 15vh;
+}
+
 .big-picture {
     max-height: 600px;
 }
@@ -45,6 +50,9 @@
     color: #966428;
 }
 
+.small-picture {
+    max-height: 200px;
+}
 
 .text-color-821e00 {
     color: #821E00;
