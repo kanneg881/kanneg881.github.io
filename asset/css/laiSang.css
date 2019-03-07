@@ -6,6 +6,14 @@
     text-indent: 40px;
 }
 
+.background-color-faf5e6 {
+    background-color: #FAF5E6;
+}
+
+.big-icon {
+    font-size: 15vh;
+}
+
 .big-picture {
     max-height: 600px;
 }
@@ -17,6 +25,7 @@
 
 .brand-story-proverb {
     font-size: 20px;
+    /* google 字體 */
     font-family: 'Noto Serif TC', serif;
 }
 
@@ -32,10 +41,6 @@
     color: #B98C55;
 }
 
-.navbar-header-color {
-    background-color: #faf5e6;
-}
-
 .navbar-light .navbar-nav .nav-link {
     color: #b48246;
     font-size: larger;
@@ -45,8 +50,16 @@
     color: #966428;
 }
 
-.title-color {
+.small-picture {
+    max-height: 200px;
+}
+
+.text-color-821e00 {
     color: #821E00;
+}
+
+.text-color-dc550f {
+    color: #DC550F;
 }
 
 @media screen and (min-width: 576px) {
