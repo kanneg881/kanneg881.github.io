@@ -37,6 +37,10 @@
     border: 1px solid #786E3C;
 }
 
+.medium-picture {
+    max-height: 400px;
+}
+
 .property-benefit-font-color > dd {
     color: #B98C55;
 }
