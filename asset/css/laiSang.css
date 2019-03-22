@@ -11,7 +11,7 @@
 }
 
 .big-icon {
-    font-size: 15vh;
+    font-size: 12vh;
 }
 
 .big-picture {
@@ -56,6 +56,10 @@
 
 .small-picture {
     max-height: 200px;
+}
+
+.text-color-00bbff {
+    color: #00BBFF;
 }
 
 .text-color-821e00 {
